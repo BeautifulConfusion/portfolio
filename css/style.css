@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ffc0d0;
+  height: 80vh;
+  position: relative;
+}
+
+.top-menu {
+  width: 50%;
+  text-align: center;
+  list-style-type: none;
+  position: absolute;
+  left: 25%;
+}
+
+.top-list {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 25px 10px;
+}
+
+.name-top {
+  width: 50vw;
+  height: 20vh;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  text-align: center;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#subtitle {
+  font-size: 20px;
+}
+
+.penguins {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  bottom: -20%;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-body {
+  height: 140vh;
+  position: relative;
+  background-color: #feffff;
+}
+.about-me {
+  width: 50vw;
+  height: 100px;
+  position: absolute;
+  top: 32vh;
+  left: 25vw
+}
+ .about-me > h1 {
+   text-align: center;
+   margin-bottom: 15px;
+   font-size: 30px;
+   font-family: 'Indie Flower', cursive;
+ }
+
+.about-me > p {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Abel', sans-serif;
+}
